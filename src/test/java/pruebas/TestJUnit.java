@@ -95,10 +95,10 @@ public class TestJUnit {
 	}
 	
 	
+	@Test
 	public void testNull() {
 		assertNull(coche.calcularDistanciaMaxima(gasolina));
 	}
-	
 	
 	
 	@Test
@@ -106,7 +106,6 @@ public class TestJUnit {
 		assertSame(coche, coche2);
 	}
 	
-	//@Ignore
 	@Test
 	public void testNotSame() {
 		assertNotSame(coche, coche1);

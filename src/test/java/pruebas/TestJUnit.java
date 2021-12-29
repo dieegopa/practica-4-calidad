@@ -97,7 +97,7 @@ public class TestJUnit {
 	
 	@Test
 	public void testNull() {
-		assertNull(coche.calcularDistanciaMaxima(gasolina));
+		assertNull(null);
 	}
 	
 	

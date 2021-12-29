@@ -9,14 +9,12 @@ public class Principal {
 		Vehiculo v1=new Coche(200,5);
 		Vehiculo v2=new Moto(250);
 		Vehiculo v3=new Coche(150,6);
-		Vehiculo v4= new Coche(200,6);
 		
 		
-		Garaje g=new Garaje("Prueba");
+		Garaje g=new Garaje("lolitfdez");
 		g.guardarVehiculo(v1);
 		g.guardarVehiculo(v2);
 		g.guardarVehiculo(v3);
-		g.guardarVehiculo(v4);
 		
 		listaVehiculos=g.getListaVehiculos();
 		

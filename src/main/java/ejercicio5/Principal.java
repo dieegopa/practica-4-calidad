@@ -11,7 +11,7 @@ public class Principal {
 		Vehiculo v3=new Coche(150,6);
 		
 		
-		Garaje g=new Garaje("Prueba");
+		Garaje g=new Garaje("lolitfdez");
 		g.guardarVehiculo(v1);
 		g.guardarVehiculo(v2);
 		g.guardarVehiculo(v3);

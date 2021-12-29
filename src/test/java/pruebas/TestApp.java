@@ -1,21 +1,20 @@
-package ejercicio5;
+package pruebas;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
-public class TestClass extends TestCase{
-	
-	public TestClass(String testName) {
+public class TestApp extends TestCase{
+
+	public TestApp(String testName) {
 		super(testName);
 	}
 	
 	public static Test suite() {
-		return new TestSuite(TestClass.class);
+		return new TestSuite(TestApp.class);
 	}
 	
 	public void testApp() {
 		assertTrue(false);
 	}
-
 }
